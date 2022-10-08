@@ -1,4 +1,7 @@
-# markdown-vue-experiment
+# Editor de Markdown
+
+![App Screenshot](https://github.com/educbraga/markdown-editor-vue/blob/main/docs/screenshot.png?raw=true)
+
 
 ## Project setup
 ```
