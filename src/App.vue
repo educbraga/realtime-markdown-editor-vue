@@ -12,7 +12,11 @@ export default {
   name: 'App',
   data() {
     return {
-      markdown: '# Hello World'
+      markdown: 
+      `**Hello World:** Teste  
+      **Continua aqui:** Teste 2  
+      Fin
+      `
     }
   },
   computed: {
