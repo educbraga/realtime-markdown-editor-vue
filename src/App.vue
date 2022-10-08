@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { marked } from 'marked'
 
 export default {
   name: 'App',
@@ -18,7 +17,7 @@ export default {
   },
   computed: {
     markdownToHtml() {
-      return marked(this.markdown)
+      return this.marked(this.markdown)
     },
   },
 };
