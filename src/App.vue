@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <div class="wrapper-left">
+    <div class="wrapper-one">
       <textarea v-model="markdown"></textarea>
     </div>
-    <div class="wrapper-right">
+    <div class="wrapper-two">
       <div v-html="markdownToHtml"></div>
     </div>
   </div>
@@ -51,14 +51,14 @@ body {
   justify-content: space-between;
 }
 
-.wrapper-left {
+.wrapper-one {
   width: 50%;
   height: 100vh;
   /* background-color: red; */
   border-right: #2c3e50 solid 1px;
 }
 
-.wrapper-right {
+.wrapper-two {
   padding-top: 60px;
   width: 50%;
   height: 100vh;
