@@ -1,6 +1,7 @@
 <template>
   <div>
     <div>{{ markdown }}</div>
+    <textarea v-model="markdown"></textarea>
     <div v-html="markdownToHtml"></div>
   </div>
 </template>
