@@ -1,17 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <div>{{ markdown }}</div>
+    <div v-html="markdownToHtml"></div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { marked } from 'marked'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  data() {
+    return {
+      markdown: '# Hello World'
+    }
+  },
+  computed: {
+    markdownToHtml() {
+      return marked(this.markdown)
+    },
+  },
+};
 </script>
 
 <style>
