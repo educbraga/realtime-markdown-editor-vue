@@ -1,4 +1,4 @@
-# Editor de Markdown
+# Realtime Markdown Editor with Vue.js
 
 ![App Screenshot](https://github.com/educbraga/markdown-editor-vue/blob/main/docs/screenshot.png?raw=true)
 
